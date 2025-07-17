@@ -53,10 +53,6 @@ The portfolio is fully responsive with breakpoints:
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👤 Author
 
 **Bijaya B.C.**
