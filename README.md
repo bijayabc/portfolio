@@ -56,6 +56,6 @@ The portfolio is fully responsive with breakpoints:
 ## 👤 Author
 
 **Bijaya B.C.**
-- GitHub: [@bijayabc1234](https://github.com/bijayabc)
+- GitHub: [@bijayabc](https://github.com/bijayabc)
 - LinkedIn: [@bijayabc](https://www.linkedin.com/in/bijayabc)
 - Email: bijayabc1234@gmail.com
