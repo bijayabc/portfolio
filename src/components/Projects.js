@@ -6,9 +6,10 @@ const Projects = () => {
     {
       name: 'ShredSheet',
       description: 'A fitness tracking web app for logging workouts, creating routines, and monitoring progress.',
-      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS',, 'JWT', 'Axios', 'Bcrypt'],
+      tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS', 'JWT', 'Axios', 'Bcrypt'],
       github: 'https://github.com/bijayabc/Shredsheet',
-      demo: 'https://shredsheet-five.vercel.app/'
+      demo: 'https://shredsheet-five.vercel.app/',
+      completedDate: 'May 2025'
     },
     {
       name: 'Twitter Clone',
@@ -16,6 +17,7 @@ const Projects = () => {
       tech: ['Next.js', 'TypeScript', 'React', 'Tailwind CSS', 'GraphQL', 'Apollo Client', 'AWS S3', 'Node.js', 'PostgreSQL', 'Redis', 'JWT', 'GraphQL Codegen'],
       github: 'https://github.com/bijayabc/twitter-clone-server',
       demo: null,
+      completedDate: 'January 2025'
     },
     {
       name: 'Blogs',
@@ -23,6 +25,7 @@ const Projects = () => {
       tech: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/bijayabc/blogs',
       demo: 'https://bijayblogs.onrender.com/blogs',
+      completedDate: 'August 2024'
     },
     {
       name: 'Movie Charades Web App',
@@ -30,6 +33,7 @@ const Projects = () => {
       tech: ['HTML5', 'CSS3', 'JavaScript', 'Web3Forms', 'Google Fonts'],
       github: 'https://github.com/bijayabc/movie-charades',
       demo: 'https://bijayabc.github.io/movie-charades/',
+      completedDate: 'May 2024'
     },
   ];
 
@@ -43,9 +47,12 @@ const Projects = () => {
             {projects.map((project, index) => (
               <div key={index} className="card h-full flex flex-col">
                 <div className="flex-1">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                  <h3 className="text-xl font-semibold text-gray-900 mb-1">
                     {project.name}
                   </h3>
+                  <p className="text-sm font-semibold opacity-60 text-gray-900 mb-3">
+                    {project.completedDate}
+                  </p>
                   <p className="text-body mb-4">
                     {project.description}
                   </p>
