@@ -1,12 +1,7 @@
 {
   "short_name": "Bijaya Portfolio",
-  "name": "Bijaya B.C. - Portfolio",
+  "name": "Bijaya BC - Student Portfolio",
   "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
     {
       "src": "icon.png",
       "sizes": "512x512",
@@ -20,11 +15,6 @@
     {
       "src": "favicon-32x32.png",
       "sizes": "32x32",
-      "type": "image/png"
-    },
-    {
-      "src": "favicon-48x48.png",
-      "sizes": "48x48",
       "type": "image/png"
     }
   ],

@@ -71,7 +71,7 @@ const Research = () => {
         "Low-resource language processing for Nepali",
         "Computational efficiency in NLP model training"
       ],
-      github: "https://github.com/bijayabc",
+      github: "https://github.com/bijayabc/mBERT-finetuning",
       paper: null
     },
   ];
