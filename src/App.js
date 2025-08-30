@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Research from './components/Research';
 import Achievements from './components/Achievements';
 import Contact from './components/Contact';
+import TechStack from './components/TechStack';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Experience />
         <Projects />
         <Research />
+        <TechStack />
         <Achievements />
         <Contact />
       </main>
