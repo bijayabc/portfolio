@@ -4,6 +4,14 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      name: 'AI Coding Agent',
+      description: 'An intelligent AI-powered coding assistant built with Google\'s Gemini API that can perform file operations and execute Python code within a secure sandboxed environment.',
+      tech: ['Python', 'Google Gemini API', 'File System Operations', 'Code Execution', 'Sandboxed Environment', 'Natural Language Processing'],
+      github: 'https://github.com/bijayabc/ai-coding-agent',
+      demo: null,
+      completedDate: 'September 2025'
+    },
+    {
       name: 'ShredSheet',
       description: 'A fitness tracking web app for logging workouts, creating routines, and monitoring progress.',
       tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'TailwindCSS', 'JWT', 'Axios', 'Bcrypt'],
