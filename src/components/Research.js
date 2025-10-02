@@ -61,13 +61,13 @@ const ResearchCard = ({ research }) => {
 const Research = () => {
   const researchProjects = [
     {
-      title: "Improving Low-Resource NLP in Nepali via Adapter-Based Fine-Tuning of mBERT and mT5",
+      title: "Improving Low-Resource NLP in Nepali via Adapter-Based Fine-Tuning of mBERT",
       advisor: "Prof. Vladislav D. Veksler",
       period: "May 2025 - August 2025",
       description: "Focused on fine-tuning multilingual models using AdapterHub to reduce compute needs while improving NLP performance on Nepali tasks.",
       focus: [
-        "Multilingual BERT (mBERT) and mT5 fine-tuning",
-        "AdapterHub framework for efficient model adaptation", 
+        "Multilingual BERT (mBERT)",
+        "Adapter-based fine-tuning", 
         "Low-resource language processing for Nepali",
         "Computational efficiency in NLP model training"
       ],
