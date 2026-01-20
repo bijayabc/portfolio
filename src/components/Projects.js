@@ -32,7 +32,7 @@ const Projects = () => {
       description: 'A simple full-stack blog application with CRUD functionality and password-protected blog management.',
       tech: ['Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'HTML', 'CSS', 'JavaScript'],
       github: 'https://github.com/bijayabc/blogs',
-      demo: 'https://bijayblogs.onrender.com/blogs',
+      // demo: 'https://bijayblogs.onrender.com/blogs',
       completedDate: 'August 2024'
     },
     {
