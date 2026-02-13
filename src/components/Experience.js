@@ -3,6 +3,12 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
+      title: 'Technology and Innovation Developer Intern',
+      company: 'CNP Community Services',
+      period: 'February 2026 - May 2026',
+      description: 'Developing internal tools, supporting secure technology systems, and building automation solutions to improve organizational efficiency.',
+    },
+    {
       title: 'Summer Research Assistant - NLP',
       company: 'Caldwell University',
       period: 'May 2025 - August 2025',

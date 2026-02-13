@@ -4,6 +4,14 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
+      name: 'College Marketplace App',
+      description: 'A real-time college-only mobile marketplace platform featuring secure authentication, scalable APIs, and live buyer–seller messaging.',
+      tech: ['Node.js', 'TypeScript', 'React Native', 'Supabase', 'WebSockets', 'JWT', 'REST APIs'],
+      github: 'https://github.com/Philemon-a/unimarketplace-backend',
+      demo: null,
+      completedDate: 'February 2026'
+    },
+    {
       name: 'AI Coding Agent',
       description: 'An intelligent AI-powered coding assistant built with Google\'s Gemini API that can perform file operations and execute Python code within a secure sandboxed environment.',
       tech: ['Python', 'Google Gemini API', 'File System Operations', 'Code Execution', 'Sandboxed Environment', 'Natural Language Processing'],
