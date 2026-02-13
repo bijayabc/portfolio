@@ -1,6 +1,5 @@
-import React from 'react';
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-import profileImage from '../images/bijay.jpeg';
+import profileImage from '../images/bijay2.jpeg';
 
 const Home = () => {
   const socialLinks = [
