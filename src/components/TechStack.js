@@ -2,8 +2,6 @@ import React from 'react';
 import { 
   FaReact, 
   FaNodeJs, 
-  FaHtml5, 
-  FaCss3Alt, 
   FaJs, 
   FaPython, 
   FaGitAlt, 
@@ -11,6 +9,8 @@ import {
   FaAws,
   FaJava,
   FaGithub
+  // FaHtml5, 
+  // FaCss3Alt, 
 } from 'react-icons/fa';
 import { 
   SiTypescript, 
@@ -20,112 +20,88 @@ import {
   SiNextdotjs,
   SiExpress,
   SiRedux,
-  SiJest,
-  SiWebpack,
   SiFirebase,
-  SiTensorflow,
   SiPytorch,
   SiPandas,
   SiNumpy,
   SiScikitlearn,
   SiKubernetes,
-  SiJenkins,
-  SiAnsible,
-  SiTerraform,
   SiGraphql,
-  SiSocketdotio,
-  SiJira,
-  SiFigma,
   SiPostman,
   SiVercel,
-  SiNetlify
+  // SiJest,
+  // SiWebpack,
+  // SiTensorflow,
+  // SiJenkins,
+  // SiAnsible,
+  // SiTerraform,
+  // SiSocketdotio,
+  // SiJira,
+  // SiFigma,
+  // SiNetlify
 } from 'react-icons/si';
 import { VscCode } from 'react-icons/vsc';
-import { BiData } from 'react-icons/bi';
 
 const TechStack = () => {
   const skillCategories = {
-    frontend: {
-      title: "Frontend",
-      skills: [
-        { name: "React", icon: FaReact },
-        { name: "Next.js", icon: SiNextdotjs },
-        { name: "TypeScript", icon: SiTypescript },
-        { name: "JavaScript", icon: FaJs },
-        { name: "HTML5", icon: FaHtml5 },
-        { name: "CSS3", icon: FaCss3Alt },
-        { name: "Tailwind CSS", icon: SiTailwindcss },
-        { name: "Redux", icon: SiRedux }
-      ]
-    },
-    backend: {
-      title: "Backend",
-      skills: [
-        { name: "Node.js", icon: FaNodeJs },
-        { name: "Express.js", icon: SiExpress },
-        { name: "GraphQL", icon: SiGraphql },
-        { name: "Socket.io", icon: SiSocketdotio },
-        { name: "Python", icon: FaPython },
-        { name: "Java", icon: FaJava }
-      ]
-    },
-    databases: {
-      title: "Databases",
-      skills: [
-        { name: "MongoDB", icon: SiMongodb },
-        { name: "PostgreSQL", icon: SiPostgresql },
-        { name: "Firebase", icon: SiFirebase }
-      ]
-    },
-    devopsCloud: {
-      title: "DevOps & Cloud",
-      skills: [
-        { name: "Docker", icon: FaDocker },
-        { name: "Kubernetes", icon: SiKubernetes },
-        { name: "AWS", icon: FaAws },
-        // { name: "Jenkins", icon: SiJenkins },
-        // { name: "Ansible", icon: SiAnsible },
-        // { name: "Terraform", icon: SiTerraform },
-        { name: "Vercel", icon: SiVercel },
-        { name: "Netlify", icon: SiNetlify }
-      ]
-    },
     languages: {
       title: "Languages",
       skills: [
-        { name: "JavaScript", icon: FaJs },
-        { name: "TypeScript", icon: SiTypescript },
         { name: "Python", icon: FaPython },
+        { name: "TypeScript", icon: SiTypescript },
+        { name: "JavaScript", icon: FaJs },
         { name: "Java", icon: FaJava },
-        { name: "HTML", icon: FaHtml5 },
-        { name: "CSS", icon: FaCss3Alt }
+        { name: "SQL", icon: SiPostgresql }
       ]
     },
-    toolsLibraries: {
-      title: "Tools & Libraries",
+
+    frameworks: {
+      title: "Frameworks & Libraries",
       skills: [
+        { name: "React", icon: FaReact },
+        { name: "Next.js", icon: SiNextdotjs },
+        { name: "Node.js", icon: FaNodeJs },
+        { name: "Express.js", icon: SiExpress },
+        { name: "GraphQL", icon: SiGraphql },
+        { name: "Redux", icon: SiRedux },
+        { name: "Tailwind CSS", icon: SiTailwindcss }
+      ]
+    },
+
+    databasesCloud: {
+      title: "Databases & Cloud",
+      skills: [
+        { name: "PostgreSQL", icon: SiPostgresql },
+        { name: "MongoDB", icon: SiMongodb },
+        { name: "Firebase", icon: SiFirebase },
+        { name: "AWS", icon: FaAws },
+        { name: "Vercel", icon: SiVercel }
+      ]
+    },
+
+    tools: {
+      title: "Tools & Technologies",
+      skills: [
+        { name: "Docker", icon: FaDocker },
+        { name: "Kubernetes", icon: SiKubernetes },
         { name: "Git", icon: FaGitAlt },
         { name: "GitHub", icon: FaGithub },
-        { name: "VS Code", icon: VscCode },
-        // { name: "Jest", icon: SiJest },
-        // { name: "Webpack", icon: SiWebpack },
-        // { name: "Jira", icon: SiJira },
-        { name: "Figma", icon: SiFigma },
-        { name: "Postman", icon: SiPostman }
+        { name: "Postman", icon: SiPostman },
+        { name: "VS Code", icon: VscCode }
       ]
     },
-    aiMlData: {
-      title: "AI/ML & Data",
+
+    aiMl: {
+      title: "AI / ML",
       skills: [
-        { name: "Pytorch", icon: SiPytorch },
-        // { name: "TensorFlow", icon: SiTensorflow },
+        { name: "PyTorch", icon: SiPytorch },
         { name: "Pandas", icon: SiPandas },
         { name: "NumPy", icon: SiNumpy },
-        { name: "Scikit-learn", icon: SiScikitlearn },
-        { name: "Data Analysis", icon: BiData }
+        // { name: "Scikit-learn", icon: SiScikitlearn }
       ]
     }
   };
+
 
   return (
     <section id='techStack' className="py-16 bg-gray-50">
@@ -145,13 +121,13 @@ const TechStack = () => {
               <h3 className="text-2xl font-semibold text-gray-800 mb-8 text-center">
                 {category.title}
               </h3>
-              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6">
+              <div className="flex flex-wrap justify-center gap-6">
                 {category.skills.map((skill, index) => {
                   const IconComponent = skill.icon;
                   return (
                     <div
                       key={index}
-                      className="group flex flex-col items-center py-2 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer"
+                      className="group flex flex-col items-center py-2 px-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 hover:scale-105 cursor-pointer"
                     >
                       <div className="w-12 h-12 flex items-center justify-center text-2xl text-gray-700 group-hover:text-blue-600 transition-colors duration-300">
                         <IconComponent />

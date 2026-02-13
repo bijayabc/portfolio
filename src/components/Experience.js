@@ -5,7 +5,7 @@ const Experience = () => {
     {
       title: 'Technology and Innovation Developer Intern',
       company: 'CNP Community Services',
-      period: 'February 2026 - May 2026',
+      period: 'February 2026 - Present',
       description: 'Developing internal tools, supporting secure technology systems, and building automation solutions to improve organizational efficiency.',
     },
     {
