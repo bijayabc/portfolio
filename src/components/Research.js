@@ -72,7 +72,7 @@ const Research = () => {
         "Computational efficiency in NLP model training"
       ],
       github: "https://github.com/bijayabc/mBERT-finetuning",
-      paper: null
+      paper: "https://drive.google.com/file/d/1v6tqLc-JHVSh4_5DGu5cFDHnLx0vC8rk/view?usp=sharing"
     },
   ];
 
