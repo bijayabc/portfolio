@@ -10,25 +10,13 @@ const About = () => {
           <div className="card">
             <div className="space-y-6 text-body">
               <p>
-                I'm a rising senior majoring in Computer Science at Caldwell University. 
-                I'm a first-generation student and I've always been curious to learn deeply 
-                how computers work. My goal is to build cool, useful things with that knowledge.
+                I'm a senior Computer Science major at Caldwell University and a first-generation student who moved from Nepal to the U.S. in 2021 to pursue Computer Science. These past few years have been challenging and rewarding in equal measure, and they've shaped who I am today.
               </p>
-              
               <p>
-                I completed my high school from Nepal Police School in 2021, where I studied 
-                Physical Science. After that, I moved to the U.S. to pursue my undergraduate degree.
+                My interests span software development, web development, and AI. I'm currently interning as a Technology and Development Intern at CNP Services, where I work on software development and system migration. Outside of that, I've built several full-stack applications and done research in AI.
               </p>
-              
               <p>
-                These past few years have been filled with challenges and opportunities, and I've 
-                grown immensely, not just as a student, but as a person.
-              </p>
-              
-              <p>
-                I've enjoyed exploring different areas in CS like software development, web dev, 
-                data science, and AI. My next goal is to land an internship and 
-                get real world experience.
+                I care about building things that actually matter; technology that is useful, thoughtful, and contributes meaningfully to the people and communities it serves.
               </p>
             </div>
           </div>
