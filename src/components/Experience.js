@@ -3,10 +3,10 @@ import React from 'react';
 const Experience = () => {
   const experiences = [
     {
-      title: 'Technology and Innovation Developer Intern',
+      title: 'Technology and Developer Intern',
       company: 'CNP Community Services',
       period: 'February 2026 - Present',
-      description: 'Developing internal tools, supporting secure technology systems, and building automation solutions to improve organizational efficiency.',
+      description: 'Building internal tools for a Medicaid-funded agency serving people with intellectual and developmental disabilities. Developed a staff compliance dashboard (Python, Flask, SQLite) on a relational data model that computes each employee\'s training, onboarding, and background-check status from their role, with scheduled expiration alerts and role-restricted access to personnel data. Wrote a Pandas importer for training platforms with no APIs, and automated client applications, including a 35+ page guardianship form, so completed PDFs are generated in seconds instead of taking weeks of back-and-forth.',
     },
     {
       title: 'Summer Research Assistant - NLP',
